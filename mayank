@@ -1,1 +1,10 @@
-Hi mayank
+What is the difference between an Event, an Alert, and an Incident?
+
+An Event is any activity logged in a system (like a login attempt). An Alert is when that event matches a suspicious rule and needs attention. 
+An Incident is a confirmed security problem that requires a response action. Think of it like: Event = notification, Alert = warning, Incident = emergency.
+
+What does CIA Triad stand for and why does it matter?
+
+CIA = Confidentiality (only right people see data), Integrity (data is not changed/tampered), Availability (systems are up and working). 
+It is the foundation of every security decision in a SOC. Example: A ransomware attack breaks Availability. A data leak breaks Confidentiality.
+
