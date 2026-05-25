@@ -6,3 +6,7 @@ grep "Accepted password\|Accepted publickey" /var/log/auth.log
 
 # Output example:
 # sshd[1234]: Accepted password for john from 192.168.1.10 port 22
+
+Key Point: If SSH client is behind NAT, the server can NEVER see the client's LAN IP directly.
+You must either check the NAT router's connection table or use a VPN that preserves source IPs. 
+The only reliable way is to correlate the Public IP → Router NAT table → LAN IP.
