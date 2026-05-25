@@ -8,3 +8,10 @@ What does CIA Triad stand for and why does it matter?
 CIA = Confidentiality (only right people see data), Integrity (data is not changed/tampered), Availability (systems are up and working). 
 It is the foundation of every security decision in a SOC. Example: A ransomware attack breaks Availability. A data leak breaks Confidentiality.
 
+
+What is your experience with CloudSEK and what kind of threats does it help detect?
+
+CloudSEK is a digital risk protection tool. It monitors the internet for threats to an organization's brand and assets. It helps detect: fake/lookalike domains (typosquatting), 
+fake social media pages impersonating the company, leaked credentials on dark web, and exposed assets/subdomains. 
+As a SOC analyst, you review these findings and initiate takedown requests or alerts.
+
