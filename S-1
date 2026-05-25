@@ -1,0 +1,8 @@
+# Who logged in via SSH and when
+last -a | grep -i "pts"
+
+# OR
+grep "Accepted password\|Accepted publickey" /var/log/auth.log
+
+# Output example:
+# sshd[1234]: Accepted password for john from 192.168.1.10 port 22
