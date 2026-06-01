@@ -26,4 +26,3 @@ sudo systemctl enable auditd && sudo systemctl start auditd
 
 # Output:
 # May 25 10:23:45 server passwd[5678]: pam_unix(passwd:chauthtok): password changed for root
-
